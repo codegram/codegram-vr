@@ -27,7 +27,7 @@ export default defineComponent({
 
     pbr.baseColor = new Color3(229 / 255, 85 / 255, 79 / 255);
     pbr.metallic = 0.95;
-    pbr.roughness = 0.1;
+    pbr.roughness = 0.15;
 
     const camera = new ArcRotateCamera("camera", -Math.PI, Math.PI / 3, 1.5, new Vector3(0, 1, 0), scene);
     let helperLight = scene.createDefaultLight();
