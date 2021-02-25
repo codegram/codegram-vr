@@ -29,7 +29,7 @@ export default defineComponent({
     pbr.metallic = 0.9;
     pbr.roughness = 0.15;
 
-    const camera = new ArcRotateCamera("camera", -Math.PI, Math.PI / 3, 1.5, new Vector3(0, 1, 0), scene);
+    const camera = new ArcRotateCamera("camera", -Math.PI, Math.PI / 3, 1.5, new Vector3(0, 0, 0), scene);
     let helperLight = scene.createDefaultLight();
     let helper = scene.createDefaultEnvironment({});
     const light = new HemisphericLight("light", new Vector3(0, 1, 0), scene);
